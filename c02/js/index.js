@@ -1,11 +1,18 @@
 var count = 0;
+var countEl = document.getElementById('p');
+var saveEl = document.getElementById('save-el');
 
 function counter() {
     count++
-    document.getElementById('p').innerText = count;
+    countEl.innerText = count;
 }
 
 function reset() {
     count = 0;
-    document.getElementById('p').innerHTML = count;
+    countEl.innerText = count;
+}
+
+function save() {
+    var countStr = count + ' - ';
+    saveEl.innerText += countStr;
 }
