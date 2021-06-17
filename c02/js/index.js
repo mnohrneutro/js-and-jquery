@@ -12,6 +12,8 @@ function counter() {
 function save() {
     var countStr = count + ' - ';
     saveEl.textContent += countStr; //textCOntent gets all the content
+    count = 0;
+    countEl.textContent = count;
 }
 
 function reset() {
