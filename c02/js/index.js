@@ -7,12 +7,15 @@ function counter() {
     countEl.innerText = count;
 }
 
-function reset() {
-    count = 0;
-    countEl.innerText = count;
-}
+
 
 function save() {
     var countStr = count + ' - ';
-    saveEl.innerText += countStr;
+    saveEl.textContent += countStr; //textCOntent gets all the content
+}
+
+function reset() {
+    count = 0;
+    saveEl.textContent = "previous entries : ";
+    countEl.innerText = count;
 }
