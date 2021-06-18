@@ -1,0 +1,35 @@
+.card-wrapper {
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    width: 100%;
+}
+
+.card-center {
+    border-style: solid;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+button {
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    margin-top: 10px;
+}
+
+#title {
+    font-weight: 600;
+}
+
+#error {
+    color: red;
+    font-weight: 300;
+}
