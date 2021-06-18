@@ -2,17 +2,36 @@
 
 <head>
     <style>
-        .counter-wrapper {
+        /* .counter-wrapper {
             text-align: center;
             border-style: solid;
             width: 30%;
             margin: 150px auto;
             background-color: antiquewhite;
+        } */
+        
+        .card-wrapper {
+            top: 50%;
+            position: absolute;
+            transform: translate(0, -50%);
+            width: 100%;
+        }
+        
+        .card-center {
+            border-style: solid;
+            width: 500px;
+            text-align: center;
+            margin: auto;
+            background-color: antiquewhite;
         }
         
         h1,
-        p {
+        #p {
             font-size: 50px;
+        }
+        
+        #save-el {
+            font-size: 30px;
         }
         
         button {
@@ -23,14 +42,16 @@
 </head>
 
 <body>
-    <div class='counter-wrapper'>
-        <h1 id="head"> counter app </h1>
-        <p id='p'> 0 </p>
-        <button style="margin: 5px" onclick="counter()">count </button>
-        <button onclick="save()">Save</button>
-        <button onclick="reset()"> reset </button>
-        <br>
-        <p id="save-el">previous entries : </p>
+    <div class='card-wrapper'>
+        <div class="card-center">
+            <h1 id="head"> counter app </h1>
+            <p id='p'> 0 </p>
+            <button style="margin: 5px" onclick="counter()">count </button>
+            <button onclick="save()">Save</button>
+            <button onclick="reset()"> reset </button>
+            <br>
+            <p id="save-el">previous entries : </p>
+        </div>
     </div>
     <script src="js/index.js"></script>
 </body>
