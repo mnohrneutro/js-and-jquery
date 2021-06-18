@@ -7,8 +7,6 @@ function counter() {
     countEl.innerText = count;
 }
 
-
-
 function save() {
     var countStr = count + ' - ';
     saveEl.textContent += countStr; //textCOntent gets all the content
