@@ -4,4 +4,5 @@
 
 1. [showing current day time](https://mnohrneutro.github.io/js-and-jquery/c01/)
 2. [counter app](https://mnohrneutro.github.io/js-and-jquery/c02/)
-3. [simple calculator](https://mnohrneutro.github.io/js-and-jquery/c03)
+3. [rendering the error message](https://mnohrneutro.github.io/js-and-jquery/c03)
+4. [simple calculator](https://mnohrneutro.github.io/js-and-jquery/c04)
